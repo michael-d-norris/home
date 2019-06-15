@@ -62,3 +62,21 @@ function isExists(elem){
 	}
 	return false;
 }
+
+function adminReveal() {
+	var x = document.getElementById("hideAdmin");
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}
+
+function userReveal() {
+	var x = document.getElementById("hideUser");
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}

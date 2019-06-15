@@ -349,6 +349,29 @@ header .info .right-area {
 	background-position: center;
 	width: 100%;
 }
+
+#portfolioModal1 .carousel-control-prev-icon,
+#portfolioModal2 .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23007bff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#portfolioModal1 .carousel-control-next-icon,
+#portfolioModal2 .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23007bff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#portfolioModal3 .carousel-control-next-icon {
+	filter: invert(100%);
+}
+
+#portfolioModal3 .carousel-control-prev-icon {
+	filter: invert(100%);
+}
+
+#portfolioModal3 ul > li {
+	display: block;
+}
+
 /* END OF PORTFOLIO SECTION */
 
 /* ---------------------------------
